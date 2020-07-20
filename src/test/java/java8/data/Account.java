@@ -26,6 +26,10 @@ public class Account {
 		this.owner = owner;
 		this.balance = balance;
 	}
+
+	public Account() {
+		// TODO Auto-generated constructor stub
+	}
     
     
 }
