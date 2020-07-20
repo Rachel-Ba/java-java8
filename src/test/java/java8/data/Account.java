@@ -20,4 +20,12 @@ public class Account {
     public void setBalance(Integer balance) {
         this.balance = balance;
     }
+
+	public Account(Person owner, Integer balance) {
+		super();
+		this.owner = owner;
+		this.balance = balance;
+	}
+    
+    
 }
